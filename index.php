@@ -7,9 +7,9 @@
 </head>
 <body>
     <?php
-        echo ('<h1>Ezt a PHP alapok.</h1>');
+        echo (' <h1>Ezt a PHP alapok.</h1>');
         print ('<h2>print eredménye</h2>');
-        echo ('<p>Ezt a PHP írta.</p>');
+        echo (' <p>Ezt a PHP írta.</p>');
         define("GREETING","Hello you! How are you today?");
         echo constant("GREETING");
         $szoveg1 = 'Fáradt'; 
@@ -21,10 +21,10 @@
         echo "<br>  A két szám összege: ".$tort1+$tort2;
         $alap = 2.0;
         $kitevo =3;
-        echo "<br>A $alap a $kitevo hatványon:" .pow($alap,$kitevo);
+        echo "<br>  A $alap a $kitevo hatványon:" .pow($alap,$kitevo);
         $logikai1 = true;
         $logikai2 = false;
-        echo "<br  >A két logikai érték: $logikai1 $logikai2";
+        echo "<br   A két logikai érték: $logikai1 $logikai2";
         echo '0:        '.(boolval(0) ? 'true' : 'false')."<br>";
         echo '42:       '.(boolval(42) ? 'true' : 'false')."<br>";
         echo '0.0:      '.(boolval(0.0) ? 'true' : 'false')."<br>";
