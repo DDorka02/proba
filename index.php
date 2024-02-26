@@ -44,6 +44,12 @@
         $tomb2[0] = "Ady Endre";
         $tomb2[1] = "József Attila";
         $tomb3 = ["Milan Kundera", "Hermann Hesse"];
+        echo "<br>1. tömb:";
+        print_r($tomb0);
+        echo "<br>2. tömb";
+        print_r($tomb1);
+        echo "<br>3. tömb:";
+        print_r($tomb2);
         $tomb2[] = "Tóth Árpád";
         array_push($tomb2, "Tóth Árpád");
         $elemSzam = count($tomb2);
