@@ -38,6 +38,7 @@
         echo 'stdClass: '.(boolval(new stdClass) ? 'true' : 'false')."<br>";
         $a = array("red", "green", "blue", "yellow","orange","gray","white","black");
         print_r($a);
+        var_dump($a);
         $tomb0 = array(1,2,3,4,5);
         $tomb1 = array();
         $tomb2[0] = "Ady Endre";
@@ -52,8 +53,16 @@
         print_r($b);
         $tomb1["elso"]="Ady";
         $tomb1["masodik"]="József";
-
-
+        $tomb1["masodik"]="Karinthy";
+        #echo $a;
+        echo ("<br>");
+        define('ANIMALS', array(
+            'dog',
+            'cat',
+            'bird'
+        ));
+        echo ANIMALS[1];
+        
 
     ?>
 </body>
